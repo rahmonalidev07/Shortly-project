@@ -1,0 +1,42 @@
+.footer {
+  background: #232127;
+}
+.footer__container {
+  padding: 7rem 0 7rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__site-logo {
+  margin-right: 2rem;
+}
+.footer__nav {
+  display: flex;
+  gap: 10.7rem;
+}
+.footer__list-title {
+  font-family: "Poppins";
+  color: #fff;
+  margin-bottom: 2.2rem;
+}
+.footer__item:not(:last-child) {
+  margin-bottom: 1rem;
+}
+.footer__link {
+  font-family: "Poppins";
+  font-size: 1.1rem;
+  line-height: 1.4;
+  color: #bfbfbf;
+  transition: 0.3s ease;
+  &:hover {
+    color: $primary-color-aqua;
+  }
+}
+.social {
+  margin-left: 2rem;
+  display: flex;
+  gap: 2.4rem;
+}
+.social__media:hover path {
+  fill: $primary-color-aqua;
+  cursor: pointer;
+}
